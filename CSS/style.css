@@ -62,4 +62,25 @@ h2{
 
 /* Contentido */
 
+.texto{
+    font-size: 14px;
+}
+
+.caja1{
+    color: #313131;
+}
+
+.parrafo{
+    color: #666666;
+}
 /* Footer */
+#footer{
+    background-color: #e2e0e0;
+    text-align: center;
+    height: 79px;
+}
+
+.pfooter{
+    margin: 0 auto;
+    padding-top:34px;
+}
