@@ -7,10 +7,13 @@ body{
 
 a{
     text-decoration: none;
+    float: right;
 }
 .logo{
     margin-left: 94px;
 }
+
+
 
 /* Helpers */
 
@@ -21,6 +24,7 @@ a{
 .sub{
     color: #707070;
     font-size: 16px;
+    font-style: italic;
 }
 
 h2{
@@ -47,7 +51,7 @@ h2{
 }
 
 .menu li + li{
-    margin-left: 53px;
+    margin-left: 40px;
 }
 
 .menu li:first-child{
@@ -62,22 +66,64 @@ h2{
 
 /* Contentido */
 
+#contenedor{
+    width: 900px;
+    margin: 0 auto;
+    margin-top:30px; 
+}
 .texto{
     font-size: 14px;
 }
 
-.caja1{
+.subcaja{
     color: #313131;
 }
 
 .parrafo{
     color: #666666;
 }
+
+.caja{
+    float: right;
+    width: 443px;
+    height: 347px;
+    background-color: #f5f3f3;
+    border: 1px solid #cac8c8;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+.caja2{
+    margin-right: 10px;
+}
+
+.producto{
+    float: right;
+}
+
+.celular{
+    margin: 0 43px;
+}
+
+.reproductor{
+    margin: 0 20px;
+}
+
+.link{
+    padding-top:60px; 
+}
+
+.link2{
+    padding: 19;
+    padding-top: 90px;
+}
+
 /* Footer */
 #footer{
     background-color: #e2e0e0;
     text-align: center;
     height: 79px;
+    margin-top: 43px;
 }
 
 .pfooter{
